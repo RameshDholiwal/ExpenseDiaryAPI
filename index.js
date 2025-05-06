@@ -22,7 +22,8 @@ app.post('/api/expenses', (req, res) => {
   data.push(newExpense);
   fs.writeFileSync(DATA_PATH, JSON.stringify(data, null, 2));
   res.json(newExpense);
-});
+}); 
+
 
 app.listen(5000, () => {
     console.log(`App running on PORT: ${5000}`)

@@ -1,5 +1,6 @@
 const express = require('express');
 const serverless = require('serverless-http');
+const path = require('path');
 const fs = require('fs');
 const cors = require('cors');
 
@@ -11,7 +12,7 @@ const PORT = 5000;
 app.use(cors({ origin: ['https://expensemydiary.netlify.app', 'http://localhost:5173'] })); // Allow CORS for the specified origin
 app.use(express.json());
 
-const DATA_PATH = './data.json';
+const DATA_PATH = path.join(__dirname, 'data.json');
 
 // GET: Read from file
 router.get('/expenses', (req, res) => {

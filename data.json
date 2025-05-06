@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Groceries",
+    "amount": 50,
+    "date": "2023-10-01",
+    "category": "Food",
+    "description": "Weekly groceries"
+  },
+  {
+    "id": 2,
+    "name": "Rent",
+    "amount": 1200,
+    "date": "2023-10-01",
+    "category": "Housing",
+    "description": "Monthly rent payment"
+  },
+  {
+    "id": 3,
+    "name": "Utilities",
+    "amount": 200,
+    "date": "2023-10-01",
+    "category": "Bills",
+    "description": "Electricity and water bills"
+  },
+  {
+    "id": 4,
+    "name": "Transportation",
+    "amount": 100,
+    "date": "2023-10-01",
+    "category": "Transport",
+    "description": "Gas and public transport"
+  },
+  {
+    "id": 5,
+    "name": "Entertainment",
+    "amount": 150,
+    "date": "2023-10-01",
+    "category": "Leisure",
+    "description": "Movies and dining out"
+  },
+  {
+    "id": 67,
+    "name": "rent",
+    "amount": 1000,
+    "date": "2025-05-02",
+    "category": "Bills",
+    "description": "test all"
+  },
+  {
+    "id": 371,
+    "name": "admin",
+    "amount": 500,
+    "date": "2025-05-09",
+    "category": "Leisure",
+    "description": "medicine charges"
+  }
+]

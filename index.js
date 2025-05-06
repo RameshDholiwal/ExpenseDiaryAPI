@@ -4,7 +4,7 @@ const cors = require('cors');
 const app = express();
 const PORT = 5000;
 
-app.use(cors({ origin: 'https://expensemydiary.netlify.app' })); // Allow CORS for the specified origin
+app.use(cors({ origin: ['https://expensemydiary.netlify.app', 'http://localhost:5173'] })); // Allow CORS for the specified origin
 app.use(express.json());
 
 const DATA_PATH = './data.json';
